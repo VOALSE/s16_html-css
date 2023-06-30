@@ -45,7 +45,7 @@
     padding-right: calc(50% - 570px);
 }
 
-.mobile-menu {
+.mobile_menu {
     position: absolute;
     top: 75px;
     right: 0px;
@@ -69,7 +69,7 @@
     left: -9999999px;
 }
 
-.header__checkbox:checked~.mobile-menu {
+.header__checkbox:checked~.mobile_menu {
     top: 75px;
     visibility: visible;
     -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -83,8 +83,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
 
-
+.mobile_menu_header {
+    list-style-type: none;
 }
 
 .menu_header {
